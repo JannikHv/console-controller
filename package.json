@@ -3,6 +3,7 @@
   "description": "Disable / Enable the window console.",
   "version": "1.0.0",
   "main": "./dist/console-controller.min.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "clean": "rm -f dist/*",
     "build:dev": "webpack --mode development",
